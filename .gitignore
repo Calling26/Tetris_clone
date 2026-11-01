@@ -1,0 +1,42 @@
+# Binaries & Executables
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+build/
+dist/
+
+# Object files & Libraries
+*.o
+*.obj
+*.a
+*.lib
+
+# Debugging symbols & dumps
+*.pdb
+*.ilk
+*.dmp
+*.crash
+
+# Secrets, Environment & Credentials
+.env*
+*.key
+*.pem
+*.cert
+credentials.json
+secrets/
+
+# IDE & Editor caches (keep standard vscode configs if desired, ignore local state)
+.vs/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+.history/
+*.user
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
